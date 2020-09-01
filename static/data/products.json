@@ -1,0 +1,33 @@
+[
+
+    {
+        "img_source": "static/img/bb-vitb12-main.jpg",
+        "name":  "Vitamin B12 1000mcg Methycobalamin Sublingual",
+        "description": "Vitamin B12 (Methylcobalamin) supports the healthy structure and function of the nerves and brain.",
+        "price": "$24.99" 
+    },
+        {
+        "img_source": "static/img/ashuka-antacid.jpg",
+        "name":  "ASUKA TABLETS -Effective Antacid.",
+        "description": "Contents - Avipattikar Churna, Sutshekhar and Kamdudha. Action - Effective Antacid.",
+        "price": "$24.99" 
+    },
+        {
+        "img_source": "static/img/khadira-cold.jpg",
+        "name":  "VKHADIRA TABLETS (80 MG.) (A.S.S) – RELIEVES COUGH",
+        "description": "Contents - Acacia Catechu (Khadir), javitri, kapur (camphor), Kankol etc. Action - Anti tussive, Kaphadoshahar, expectorant.",
+        "price": "$24.99" 
+    },
+        {
+        "img_source": "static/img/bb-coq10-main.jpg",
+        "name":  "Extra Strength Omega 3",
+        "description": "Coenzyme Q10, or CoQ10, helps maintain cardiovascular health. CoQ10, a fat-soluble antioxidant, supports cellular energy production and immunity. ",
+        "price": "$24.99" 
+    },
+        {
+        "img_source": "static/img/vat-liniment.jpg",
+        "name":  "VATO LINIMENT",
+        "description": "EXTERNAL APPLICATION FOR MASSAGE) – RELIEVES JOINT PAINS. Vato oil helps in pain associated with complaints like Joint Pains, Arthritis, and frozen shoulder, sciatica Lumbago, sports injuries, sprain & pain due to injury.",
+        "price": "$24.99" 
+    }
+]
