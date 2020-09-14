@@ -27,13 +27,13 @@ A portal to view , compare and purchase medicines and health products online.
 
 UX - Requirements
 Wire Frame and UX design
-(https://github.com/bsdebora/holidayhomesearch/blob/master/UI%20Wireframes%20-%20Holiday%20Home.docx)
+(https://github.com/varsha2316/mongobdproject/blob/master/UI%20Wireframes%20.docx)
 
 MongoDB design
-(https://github.com/bsdebora/holidayhomesearch/blob/master/Mongo%20DB%20Design%20-%20Holidayhome.docx)
+(https://github.com/varsha2316/mongobdproject/blob/master/Mongo%20DB%20Design%20.docx)
 
-Features
-In user stories format (https://github.com/bsdebora/holidayhomesearch/blob/master/User%20stories-%20Holiday%20home.docx)
+# Features
+
 
 ## Existing Features
 User able to access the website to add/ view / edit / delete listings
