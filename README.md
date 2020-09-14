@@ -22,18 +22,71 @@ Another blue button should appear to click: *Open Browser*.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
+Living Healthy
+A portal to view , compare and purchase medicines and health products online.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+UX - Requirements
+Wire Frame and UX design
+(https://github.com/bsdebora/holidayhomesearch/blob/master/UI%20Wireframes%20-%20Holiday%20Home.docx)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+MongoDB design
+(https://github.com/bsdebora/holidayhomesearch/blob/master/Mongo%20DB%20Design%20-%20Holidayhome.docx)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Features
+In user stories format (https://github.com/bsdebora/holidayhomesearch/blob/master/User%20stories-%20Holiday%20home.docx)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Existing Features
+User able to access the website to add/ view / edit / delete listings
+index (home) page
+register feature
+login feature
+fetching the contact details from the form and writing to MongoDB
+Test to check if the website is responsive on different devices
+Test to check system displays appropriate error message whne user enteres invalid data
+## Features Left to Implement
+paginition in vew lsiting
+forget passoword
+search individual product characteristics
+Shopping cart, payments
+Admin login to add / remove products
+# Technologies Used
+The project uses HTML to add content to the website.
+The project used CSS to style the content.
+The project used BootStrap theme to have reusable CSS styling and make tyhe site responsive.
+Icons / Images were taken from Font-Awesome website
+Styling was taken from Google fonts
+Used Python for business logic implementatin
+Python framework to speedup development - Flask
+database used - MongoDB (to store Listing info, user login info, info from contactus form)
+# Testing
+## Manual Testing
+Testing has been performed to verify and validate the software as per the requirements. Manual Testing performed for the below
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Test senarios
+Test to check if all the pages layout is as perthe wireframes from the UX design
+Test to check functionality of index (home) page
+Test to check functionality of register
+Test to check functionality of login
+Test to check functionality of fetching the contact details from the form and writing to MongoDB
+Test to check if the website is responsive on different devices
+Test to check system displays appropriate error message whne user enteres invalid data
+How your project looks and works on different browsers and screen sizes
+The website is designed with bootstrap and is tested for responsiveness on Desktop / Laptop /Tablet /Mobile View.
 
---------
+Please check the attached Wireframes PDF on different devises from the UX requirements section
 
-Happy coding!
+()
+
+## It has been tested for iphone6/7/8 , also in iPad.
+## Any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Pagination is not addressed
+current page not highlighted in the navbar
+## Deployment
+Code was written in gitpod and deployed to heroku
+
+the published github page is below
+![Heroku URL] (https://mongodbprojectdemo.herokuapp.com/)
+
+Credits
+Bootstrap theme taken from
+https://themeforest.net/
