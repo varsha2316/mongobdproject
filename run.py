@@ -68,6 +68,13 @@ def contact():
     return render_template("contact.html", page_title="Contact Us")
 
 
+@app.route('/emailenquiry', methods=['POST'])
+def emailenquiry():
+    enquiry = mongo.db.emailenquiry
+    enquiry.insert_one(request.form.to_dict())
+    return render_template('index.html')
+
+
 @app.route('/shoppingcart')
 def shoppingcart():
     return render_template("shoppingcart.html", page_title="Shopping Cart")
